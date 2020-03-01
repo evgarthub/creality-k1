@@ -54,6 +54,15 @@ origin = https://github.com/Guilouz/Creality-Helper-Script.git
 primary_branch = main
 managed_services = klipper
 
+[update_manager klipper_tmc_autotune]
+type = git_repo
+channel = dev
+path = ~/klipper_tmc_autotune
+origin = https://github.com/andrewmcgr/klipper_tmc_autotune.git
+managed_services = klipper
+primary_branch = main
+install_script = install.sh
+
 [timelapse]
 output_path = /usr/data/printer_data/timelapse/
 frame_path = /usr/data/printer_data/frames/
