@@ -66,3 +66,6 @@ channel = beta
 repo = mainsail-crew/mainsail
 path = /usr/data/mainsail
 
+[spoolman]
+server = http://192.168.3.30:7912
+
